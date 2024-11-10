@@ -1,0 +1,24 @@
+.btn {
+    border: 1px solid #1B2431;
+    color: #1B2431;
+    background: transparent; 
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease-in-out box-shadow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: max-content;
+    text-transform: capitalize;
+    &:hover {
+        background: #dedede; 
+    }
+
+    &:disabled {
+        box-shadow: none;
+        opacity: 0.8;
+    }
+}

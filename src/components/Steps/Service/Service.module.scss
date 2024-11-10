@@ -1,0 +1,27 @@
+.list {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.item {
+    text-align: left;
+    font-size: 1.3rem;
+    border: none;
+    border-bottom: 1px solid #dedede;
+    background-color: transparent;
+    padding: 1rem 0.5rem; 
+    cursor: pointer;
+
+    &:last-child {
+        border-bottom: none; 
+    }
+
+    &:hover, &:focus{
+        background-color: #ededed;
+    }
+}
+
+.btn{
+    width: 100%;
+}
